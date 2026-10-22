@@ -1,0 +1,2219 @@
+{
+  "schema": "ucl-dataset/1",
+  "season": "2026/27",
+  "competition": "UEFA Şampiyonlar Ligi",
+  "meta": {
+    "lastUpdated": "2026-10-22T07:30:00+03:00",
+    "resultsThrough": "3. Hafta (21 Ekim 2026)",
+    "retrieval": "manual",
+    "retrievalNote": "Bu ortamda UEFA.com ve Wikipedia sayfalarına doğrudan (programatik) erişim engelliydi. Veriler web araması sonuç özetlerinden derlendi ve birden fazla kaynakla çapraz kontrol edildi. Otomatik canlı veri bağlantısı yoktur.",
+    "sources": [
+      {
+        "name": "UEFA.com — 2026/27 lig aşaması fikstür ve sonuçları",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+      },
+      {
+        "name": "UEFA — Lig aşaması kura sonuçları (hafta hafta takvim, PDF)",
+        "url": "https://editorial.uefa.com/resources/02a8-21768bda71f7-297d2c258d74-1000/uefa_-_champions_league_-_2026-27_-_league_phase_draw_results_-_calendar_by_matchday.pdf"
+      },
+      {
+        "name": "UEFA Şampiyonlar Ligi 2026/27 Talimatı, Madde 19 (eleme kura sistemi)",
+        "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-19-Draw-system-knockout-phase-Online"
+      },
+      {
+        "name": "NBC Sports — lig aşaması programı ve skorlar",
+        "url": "https://www.nbcsports.com/soccer/news/uefa-champions-league-2026-27-league-phase-schedule-scores-how-to-watch-live"
+      },
+      {
+        "name": "worldfootball.net — tüm maçlar",
+        "url": "https://www.worldfootball.net/competition/co19/uefa-champions-league/all-matches/"
+      },
+      {
+        "name": "ESPN / SI — 2026/27 torbalar",
+        "url": "https://www.si.com/soccer/2026-27-champions-league-draw-confirmed-league-phase-pots"
+      },
+      {
+        "name": "Pulse / Withinnigeria — 3. hafta sonrası puan durumu (kısmi)",
+        "url": "https://www.withinnigeria.com/2026/10/22/champions-league-table-after-matchday-3-psg-top-as-villa-liverpool-real-madrid-and-betis-stay-perfect/"
+      }
+    ],
+    "unverified": [
+      "1.–3. hafta ve 5.–7. hafta maçlarının başlama saatleri maç bazında doğrulanamadı (yalnızca tarih var).",
+      "Torba içindeki takım sırası UEFA kulüp katsayısı sırası olarak kabul edildi; resmi katsayı puanları veri setinde yok.",
+      "Eleme turu (play-off, son 16 vb.) tarihleri doğrulanmadı; bir kaynak play-off için 16–17 ve 23–24 Şubat 2027 veriyor.",
+      "Disiplin puanları (eşitlik kriteri 9) verisi yok.",
+      "Resmi tam puan tablosu (1–36) tek bir kaynaktan elde edilemedi; doğrulama kısmi referans tabloyla yapılır.",
+      "Gol beklentisi (xG), yurt içi lig formu ve kadro/sakatlık verisi yok."
+    ]
+  },
+  "rules": {
+    "pointsWin": 3,
+    "pointsDraw": 1,
+    "pointsLoss": 0,
+    "leaguePhaseMatches": 8,
+    "directQualification": [
+      1,
+      8
+    ],
+    "playoffPositions": [
+      9,
+      24
+    ],
+    "eliminatedFrom": 25,
+    "tiebreakers": [
+      "goalDifference",
+      "goalsFor",
+      "awayGoalsFor",
+      "wins",
+      "awayWins",
+      "opponentsPoints",
+      "opponentsGoalDifference",
+      "opponentsGoalsFor",
+      "disciplinaryPoints",
+      "clubCoefficient"
+    ],
+    "tiebreakersInProgress": 5,
+    "playoffPairings": [
+      [
+        [
+          9,
+          10
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      [
+        [
+          11,
+          12
+        ],
+        [
+          21,
+          22
+        ]
+      ],
+      [
+        [
+          13,
+          14
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      [
+        [
+          15,
+          16
+        ],
+        [
+          17,
+          18
+        ]
+      ]
+    ],
+    "roundOf16Slots": {
+      "A": {
+        "seeds": [
+          1,
+          2
+        ],
+        "playoff": "IV"
+      },
+      "B": {
+        "seeds": [
+          3,
+          4
+        ],
+        "playoff": "III"
+      },
+      "C": {
+        "seeds": [
+          5,
+          6
+        ],
+        "playoff": "II"
+      },
+      "D": {
+        "seeds": [
+          7,
+          8
+        ],
+        "playoff": "I"
+      }
+    },
+    "quarterFinals": [
+      [
+        "A",
+        "D"
+      ],
+      [
+        "B",
+        "C"
+      ]
+    ],
+    "secondLegHome": "Play-off: 9–16. sıradaki takım; Son 16: ilk 8; Çeyrek ve yarı final: lig aşamasında daha üst sırada bitiren takım (UEFA 2026/27 Talimatı Md. 19).",
+    "awayGoalsRule": false,
+    "extraTimeMinutes": 30,
+    "final": "Tek maç, tarafsız saha; beraberlikte uzatma ve penaltılar.",
+    "countryProtectionKnockout": false
+  },
+  "knockoutDraw": null,
+  "referenceStandings": {
+    "asOf": "3. Hafta sonu (21–22 Ekim 2026)",
+    "note": "Kısmi referans: kaynaklarda bulunan değerler. Tam resmi tablo erişilemedi.",
+    "sources": [
+      "Pulse.com.gh (21.10.2026)",
+      "Withinnigeria (22.10.2026)",
+      "FootRankings / X (22.10.2026)",
+      "NBC Sports"
+    ],
+    "rows": [
+      {
+        "team": "PSG",
+        "points": 9,
+        "goalDifference": 9,
+        "position": 1
+      },
+      {
+        "team": "AVL",
+        "points": 9
+      },
+      {
+        "team": "LIV",
+        "points": 9,
+        "goalDifference": 5
+      },
+      {
+        "team": "RMA",
+        "points": 9
+      },
+      {
+        "team": "BET",
+        "points": 9
+      },
+      {
+        "team": "STU",
+        "points": 7
+      },
+      {
+        "team": "ARS",
+        "points": 7
+      },
+      {
+        "team": "BAR",
+        "points": 6,
+        "goalDifference": 5
+      },
+      {
+        "team": "MCI",
+        "points": 6,
+        "goalDifference": 4
+      },
+      {
+        "team": "BVB",
+        "goalDifference": 1
+      },
+      {
+        "team": "BAY",
+        "goalDifference": 5
+      },
+      {
+        "team": "ROM",
+        "goalDifference": 3
+      },
+      {
+        "team": "ATM",
+        "goalDifference": 1
+      },
+      {
+        "team": "SHA",
+        "goalDifference": 1
+      },
+      {
+        "team": "PSV",
+        "goalDifference": 0
+      },
+      {
+        "team": "VIL",
+        "goalDifference": 0
+      },
+      {
+        "team": "INT",
+        "goalDifference": -1
+      },
+      {
+        "team": "MUN",
+        "goalDifference": -1
+      },
+      {
+        "team": "NAP",
+        "goalDifference": -2
+      },
+      {
+        "team": "GS",
+        "points": 3,
+        "goalDifference": -3,
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "position": 23
+      }
+    ]
+  },
+  "teams": [
+    {
+      "id": "PSG",
+      "name": "Paris Saint-Germain",
+      "short": "PSG",
+      "country": "FRA",
+      "pot": 1,
+      "coefficientRank": 1
+    },
+    {
+      "id": "BAY",
+      "name": "Bayern Münih",
+      "short": "BAY",
+      "country": "GER",
+      "pot": 1,
+      "coefficientRank": 2
+    },
+    {
+      "id": "RMA",
+      "name": "Real Madrid",
+      "short": "RMA",
+      "country": "ESP",
+      "pot": 1,
+      "coefficientRank": 3
+    },
+    {
+      "id": "LIV",
+      "name": "Liverpool",
+      "short": "LIV",
+      "country": "ENG",
+      "pot": 1,
+      "coefficientRank": 4
+    },
+    {
+      "id": "INT",
+      "name": "Inter",
+      "short": "INT",
+      "country": "ITA",
+      "pot": 1,
+      "coefficientRank": 5
+    },
+    {
+      "id": "MCI",
+      "name": "Manchester City",
+      "short": "MCI",
+      "country": "ENG",
+      "pot": 1,
+      "coefficientRank": 6
+    },
+    {
+      "id": "ARS",
+      "name": "Arsenal",
+      "short": "ARS",
+      "country": "ENG",
+      "pot": 1,
+      "coefficientRank": 7
+    },
+    {
+      "id": "BAR",
+      "name": "Barcelona",
+      "short": "BAR",
+      "country": "ESP",
+      "pot": 1,
+      "coefficientRank": 8
+    },
+    {
+      "id": "ATM",
+      "name": "Atlético Madrid",
+      "short": "ATM",
+      "country": "ESP",
+      "pot": 1,
+      "coefficientRank": 9
+    },
+    {
+      "id": "BVB",
+      "name": "Borussia Dortmund",
+      "short": "BVB",
+      "country": "GER",
+      "pot": 2,
+      "coefficientRank": 10
+    },
+    {
+      "id": "ROM",
+      "name": "Roma",
+      "short": "ROM",
+      "country": "ITA",
+      "pot": 2,
+      "coefficientRank": 11
+    },
+    {
+      "id": "SCP",
+      "name": "Sporting CP",
+      "short": "SCP",
+      "country": "POR",
+      "pot": 2,
+      "coefficientRank": 12
+    },
+    {
+      "id": "AVL",
+      "name": "Aston Villa",
+      "short": "AVL",
+      "country": "ENG",
+      "pot": 2,
+      "coefficientRank": 13
+    },
+    {
+      "id": "POR",
+      "name": "Porto",
+      "short": "POR",
+      "country": "POR",
+      "pot": 2,
+      "coefficientRank": 14
+    },
+    {
+      "id": "MUN",
+      "name": "Manchester United",
+      "short": "MUN",
+      "country": "ENG",
+      "pot": 2,
+      "coefficientRank": 15
+    },
+    {
+      "id": "CLB",
+      "name": "Club Brugge",
+      "short": "CLB",
+      "country": "BEL",
+      "pot": 2,
+      "coefficientRank": 16
+    },
+    {
+      "id": "BET",
+      "name": "Real Betis",
+      "short": "BET",
+      "country": "ESP",
+      "pot": 2,
+      "coefficientRank": 17
+    },
+    {
+      "id": "PSV",
+      "name": "PSV Eindhoven",
+      "short": "PSV",
+      "country": "NED",
+      "pot": 2,
+      "coefficientRank": 18
+    },
+    {
+      "id": "FEY",
+      "name": "Feyenoord",
+      "short": "FEY",
+      "country": "NED",
+      "pot": 3,
+      "coefficientRank": 19
+    },
+    {
+      "id": "LIL",
+      "name": "Lille",
+      "short": "LIL",
+      "country": "FRA",
+      "pot": 3,
+      "coefficientRank": 20
+    },
+    {
+      "id": "NAP",
+      "name": "Napoli",
+      "short": "NAP",
+      "country": "ITA",
+      "pot": 3,
+      "coefficientRank": 21
+    },
+    {
+      "id": "RBL",
+      "name": "RB Leipzig",
+      "short": "RBL",
+      "country": "GER",
+      "pot": 3,
+      "coefficientRank": 22
+    },
+    {
+      "id": "VIL",
+      "name": "Villarreal",
+      "short": "VIL",
+      "country": "ESP",
+      "pot": 3,
+      "coefficientRank": 23
+    },
+    {
+      "id": "SHA",
+      "name": "Şahtar Donetsk",
+      "short": "SHA",
+      "country": "UKR",
+      "pot": 3,
+      "coefficientRank": 24
+    },
+    {
+      "id": "GS",
+      "name": "Galatasaray",
+      "short": "GS",
+      "country": "TUR",
+      "pot": 3,
+      "coefficientRank": 25
+    },
+    {
+      "id": "FB",
+      "name": "Fenerbahçe",
+      "short": "FB",
+      "country": "TUR",
+      "pot": 3,
+      "coefficientRank": 26
+    },
+    {
+      "id": "BOD",
+      "name": "Bodø/Glimt",
+      "short": "BOD",
+      "country": "NOR",
+      "pot": 3,
+      "coefficientRank": 27
+    },
+    {
+      "id": "SLA",
+      "name": "Slavia Prag",
+      "short": "SLA",
+      "country": "CZE",
+      "pot": 4,
+      "coefficientRank": 28
+    },
+    {
+      "id": "SLO",
+      "name": "Slovan Bratislava",
+      "short": "SLO",
+      "country": "SVK",
+      "pot": 4,
+      "coefficientRank": 29
+    },
+    {
+      "id": "STU",
+      "name": "Stuttgart",
+      "short": "STU",
+      "country": "GER",
+      "pot": 4,
+      "coefficientRank": 30
+    },
+    {
+      "id": "AEK",
+      "name": "AEK Atina",
+      "short": "AEK",
+      "country": "GRE",
+      "pot": 4,
+      "coefficientRank": 31
+    },
+    {
+      "id": "LASK",
+      "name": "LASK",
+      "short": "LASK",
+      "country": "AUT",
+      "pot": 4,
+      "coefficientRank": 32
+    },
+    {
+      "id": "COM",
+      "name": "Como",
+      "short": "COM",
+      "country": "ITA",
+      "pot": 4,
+      "coefficientRank": 33
+    },
+    {
+      "id": "RCL",
+      "name": "Lens",
+      "short": "RCL",
+      "country": "FRA",
+      "pot": 4,
+      "coefficientRank": 34
+    },
+    {
+      "id": "VIK",
+      "name": "Viking",
+      "short": "VIK",
+      "country": "NOR",
+      "pot": 4,
+      "coefficientRank": 35
+    },
+    {
+      "id": "SAB",
+      "name": "Sabah",
+      "short": "SAB",
+      "country": "AZE",
+      "pot": 4,
+      "coefficientRank": 36
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "LP-MD1-01",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "AEK",
+      "away": "LASK",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD1-02",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "CLB",
+      "away": "AVL",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD1-03",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "BVB",
+      "away": "VIL",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD1-04",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "POR",
+      "away": "MCI",
+      "status": "official",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD1-05",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "LIL",
+      "away": "BET",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD1-06",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-08",
+      "kickoffCET": null,
+      "home": "RMA",
+      "away": "INT",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-07",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "BAR",
+      "away": "FEY",
+      "status": "official",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-08",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "STU",
+      "away": "VIK",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-09",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "LIV",
+      "away": "ATM",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-10",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "PSG",
+      "away": "SLO",
+      "status": "official",
+      "score": {
+        "home": 6,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-11",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "SCP",
+      "away": "GS",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-12",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-09",
+      "kickoffCET": null,
+      "home": "NAP",
+      "away": "ARS",
+      "status": "official",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-13",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "FB",
+      "away": "ROM",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-14",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "PSV",
+      "away": "SHA",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-15",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "COM",
+      "away": "RBL",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD1-16",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "BAY",
+      "away": "BOD",
+      "status": "official",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD1-17",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "MUN",
+      "away": "SAB",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD1-18",
+      "stage": "league",
+      "matchday": 1,
+      "date": "2026-09-10",
+      "kickoffCET": null,
+      "home": "SLA",
+      "away": "RCL",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD2-01",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "RCL",
+      "away": "SCP",
+      "status": "official",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD2-02",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "SAB",
+      "away": "SLA",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-03",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "ARS",
+      "away": "LIL",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-04",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "ATM",
+      "away": "MUN",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-05",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "INT",
+      "away": "CLB",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    {
+      "id": "LP-MD2-06",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "GS",
+      "away": "BAR",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "LP-MD2-07",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "RBL",
+      "away": "PSV",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-08",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "VIK",
+      "away": "BAY",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD2-09",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-13",
+      "kickoffCET": null,
+      "home": "VIL",
+      "away": "NAP",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD2-10",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "FEY",
+      "away": "COM",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD2-11",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "LASK",
+      "away": "LIV",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 6
+      }
+    },
+    {
+      "id": "LP-MD2-12",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "ROM",
+      "away": "RMA",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    {
+      "id": "LP-MD2-13",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "AVL",
+      "away": "FB",
+      "status": "official",
+      "score": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-14",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "SHA",
+      "away": "AEK",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD2-15",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "BOD",
+      "away": "BVB",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD2-16",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "MCI",
+      "away": "PSG",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "LP-MD2-17",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "BET",
+      "away": "POR",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD2-18",
+      "stage": "league",
+      "matchday": 2,
+      "date": "2026-10-14",
+      "kickoffCET": null,
+      "home": "SLO",
+      "away": "STU",
+      "status": "official",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD3-01",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "FB",
+      "away": "SLA",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "note": "Bir kaynak 2-1 bildirdi; UEFA.com ve diğer kaynaklar 2-2. 2-2 kabul edildi."
+    },
+    {
+      "id": "LP-MD3-02",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "SAB",
+      "away": "BVB",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD3-03",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "ROM",
+      "away": "SLO",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD3-04",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "POR",
+      "away": "PSV",
+      "status": "official",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-05",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "LIV",
+      "away": "VIL",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD3-06",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "MCI",
+      "away": "AEK",
+      "status": "official",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-07",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "PSG",
+      "away": "BAR",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "note": "Bir kaynak 5-2 bildirdi; UEFA.com ve PSG kaynakları 4-2. 4-2 kabul edildi."
+    },
+    {
+      "id": "LP-MD3-08",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "NAP",
+      "away": "BOD",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD3-09",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-20",
+      "kickoffCET": null,
+      "home": "STU",
+      "away": "ATM",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-10",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "COM",
+      "away": "MUN",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-11",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "LIL",
+      "away": "GS",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "LP-MD3-12",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "BAY",
+      "away": "ARS",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "LP-MD3-13",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "AVL",
+      "away": "VIK",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-14",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "CLB",
+      "away": "RCL",
+      "status": "official",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD3-15",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "RMA",
+      "away": "RBL",
+      "status": "official",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "LP-MD3-16",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "INT",
+      "away": "SHA",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD3-17",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "BET",
+      "away": "FEY",
+      "status": "official",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "LP-MD3-18",
+      "stage": "league",
+      "matchday": 3,
+      "date": "2026-10-21",
+      "kickoffCET": null,
+      "home": "SCP",
+      "away": "LASK",
+      "status": "official",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "LP-MD4-01",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "18:45",
+      "home": "SHA",
+      "away": "SCP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-02",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "18:45",
+      "home": "GS",
+      "away": "STU",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-03",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "ATM",
+      "away": "BAY",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-04",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "BAR",
+      "away": "AVL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-05",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "FEY",
+      "away": "INT",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-06",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "BOD",
+      "away": "LIL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-07",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "LASK",
+      "away": "SLO",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-08",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "MUN",
+      "away": "ROM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-09",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-03",
+      "kickoffCET": "21:00",
+      "home": "VIL",
+      "away": "PSG",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-10",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "18:45",
+      "home": "AEK",
+      "away": "RMA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-11",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "18:45",
+      "home": "FB",
+      "away": "LIV",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-12",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "BVB",
+      "away": "BET",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-13",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "POR",
+      "away": "NAP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-14",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "PSV",
+      "away": "CLB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-15",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "RBL",
+      "away": "MCI",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-16",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "RCL",
+      "away": "COM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-17",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "SLA",
+      "away": "ARS",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD4-18",
+      "stage": "league",
+      "matchday": 4,
+      "date": "2026-11-04",
+      "kickoffCET": "21:00",
+      "home": "VIK",
+      "away": "SAB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-01",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "BOD",
+      "away": "LASK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-02",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "GS",
+      "away": "AVL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-03",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "ARS",
+      "away": "BVB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-04",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "COM",
+      "away": "AEK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-05",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "FEY",
+      "away": "POR",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-06",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "MCI",
+      "away": "NAP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-07",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "RBL",
+      "away": "RCL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-08",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "RMA",
+      "away": "PSV",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-09",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-24",
+      "kickoffCET": null,
+      "home": "SLO",
+      "away": "BET",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-10",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "SAB",
+      "away": "BAR",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-11",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "SLA",
+      "away": "VIL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-12",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "ATM",
+      "away": "VIK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-13",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "CLB",
+      "away": "LIV",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-14",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "INT",
+      "away": "STU",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-15",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "SHA",
+      "away": "FB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-16",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "LIL",
+      "away": "BAY",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-17",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "PSG",
+      "away": "ROM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD5-18",
+      "stage": "league",
+      "matchday": 5,
+      "date": "2026-11-25",
+      "kickoffCET": null,
+      "home": "SCP",
+      "away": "MUN",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-01",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "VIK",
+      "away": "FEY",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-02",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "VIL",
+      "away": "SAB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-03",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "AEK",
+      "away": "GS",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-04",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "ROM",
+      "away": "SCP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-05",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "AVL",
+      "away": "PSG",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-06",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "BAR",
+      "away": "MCI",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-07",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "BAY",
+      "away": "SLA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-08",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "MUN",
+      "away": "RBL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-09",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-08",
+      "kickoffCET": null,
+      "home": "NAP",
+      "away": "CLB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-10",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "BET",
+      "away": "COM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-11",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "SLO",
+      "away": "SHA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-12",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "ARS",
+      "away": "RMA",
+      "status": "scheduled",
+      "note": "Real Madrid resmi sitesi 21:00 CET bildiriyor."
+    },
+    {
+      "id": "LP-MD6-13",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "BVB",
+      "away": "INT",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-14",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "LASK",
+      "away": "FB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-15",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "LIV",
+      "away": "POR",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-16",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "PSV",
+      "away": "ATM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-17",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "RCL",
+      "away": "BOD",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD6-18",
+      "stage": "league",
+      "matchday": 6,
+      "date": "2026-12-09",
+      "kickoffCET": null,
+      "home": "STU",
+      "away": "LIL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-01",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "BOD",
+      "away": "ATM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-02",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "GS",
+      "away": "FEY",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-03",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "AEK",
+      "away": "ROM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-04",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "AVL",
+      "away": "BVB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-05",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "INT",
+      "away": "LIV",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-06",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "POR",
+      "away": "SLA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-07",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "LIL",
+      "away": "SLO",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-08",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "RMA",
+      "away": "LASK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-09",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-19",
+      "kickoffCET": null,
+      "home": "STU",
+      "away": "CLB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-10",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "FB",
+      "away": "VIL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-11",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "SAB",
+      "away": "NAP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-12",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "COM",
+      "away": "PSG",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-13",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "MUN",
+      "away": "BAY",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-14",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "RBL",
+      "away": "SHA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-15",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "RCL",
+      "away": "MCI",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-16",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "BET",
+      "away": "ARS",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-17",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "SCP",
+      "away": "BAR",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD7-18",
+      "stage": "league",
+      "matchday": 7,
+      "date": "2027-01-20",
+      "kickoffCET": null,
+      "home": "VIK",
+      "away": "PSV",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-01",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "ARS",
+      "away": "SAB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-02",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "ROM",
+      "away": "LIL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-03",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "ATM",
+      "away": "FB",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-04",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "BVB",
+      "away": "AEK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-05",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "CLB",
+      "away": "BOD",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-06",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "BAY",
+      "away": "BET",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-07",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "BAR",
+      "away": "COM",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-08",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "SHA",
+      "away": "RMA",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-09",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "FEY",
+      "away": "RBL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-10",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "LASK",
+      "away": "POR",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-11",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "LIV",
+      "away": "RCL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-12",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "MCI",
+      "away": "SCP",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-13",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "PSG",
+      "away": "GS",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-14",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "PSV",
+      "away": "STU",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-15",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "SLA",
+      "away": "AVL",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-16",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "NAP",
+      "away": "VIK",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-17",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "VIL",
+      "away": "MUN",
+      "status": "scheduled"
+    },
+    {
+      "id": "LP-MD8-18",
+      "stage": "league",
+      "matchday": 8,
+      "date": "2027-01-27",
+      "kickoffCET": "21:00",
+      "home": "SLO",
+      "away": "INT",
+      "status": "scheduled"
+    }
+  ]
+}
