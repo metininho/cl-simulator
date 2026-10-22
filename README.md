@@ -1,12 +1,11 @@
 # UEFA Şampiyonlar Ligi 2026/27 Simülatörü
 
 Gerçek 2026/27 Şampiyonlar Ligi verileriyle çalışan etkileşimli simülatör (React + TypeScript + Vite).
-Arayüz tamamen Türkçedir. 
+Arayüz tamamen Türkçedir.
 
 ## Çalıştırma
 
 ```bash
-
 npm install
 npm run dev        # geliştirme sunucusu: http://localhost:5173
 npm test           # birim testleri (Vitest)
